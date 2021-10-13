@@ -367,7 +367,8 @@ body {
       .timetable-column__time-info {
         color: #fff; }
         .timetable-column__time-info_vs {
-          color: #00ff84; }
+          color: #00ff84;
+          margin-bottom: 1rem;}
     .timetable-column__table {
       background-color: #039e53; }
       .timetable-column__table + .timetable-column__table {
@@ -466,6 +467,8 @@ body {
     font-size: 1.8rem; }
   .timetable-column__time {
     font-size: 2rem; }
+  .timetable-column__time-info_vs {
+    margin-bottom: 0;}
   .timetable__menu {
     right: 50px; }
     .timetable__menu-list {
