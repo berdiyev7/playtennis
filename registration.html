@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+   <link rel="stylesheet" href="assets/css/style.min.css">
+   
+   <!-- Useful meta tags -->
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="robots" content="index, follow">
+   <meta name="google" content="notranslate">
+   <meta name="format-detection" content="telephone=no">
+   <meta name="description" content="">
+   
+   <title>registration</title></head>
+
+<body>
+
+   <div class="page">
+
+      <header class="header">
+         <a href="/" class="header__logo">
+            <img src="https://static.playtennis.pro/assets/5f20ada9/images/logo.png" alt="Логотип">
+         </a>
+         <nav class="header__nav">
+            <ul class="header__list">
+               <li class="header__item">
+                  <a href="#" class="header__link">Расписание</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">Результаты</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">Рейтинг</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">О лиге</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">Контакты</a>
+               </li>
+            </ul>
+            <buttonh class="header__btn btn">Вход</buttonh>
+         </nav>
+      </header>
+
+      <main class="main">
+
+         <div class="container">
+            
+            <!-- section registration-->
+            <section class="registr">
+               <h4 class="title">Регистрация</h4>
+               <div class="registr__content results__content">
+                  <form action="" class="form-registr timetable-column">
+                     <div class="form-registr__group">
+                        <input type="text" class="form-registr__input" placeholder=" ">
+                        <label class="form-registr__label">Имя</label>
+                     </div>
+                     <div class="form-registr__group">
+                        <input type="text" class="form-registr__input" placeholder=" " />
+                        <label class="form-registr__label">Фамилия</label>
+                     </div>
+                     <div class="form-registr__group form-registr__group_box">
+                        <input type="text" class="form-registr__input form-registr__input_date" placeholder=" " />
+                        <label class="form-registr__label">Дата рождения</label>
+                        <div class="form-registr__group-radio">
+                           <label for="orientm" class="form-registr__group-label">
+                              <input id="orientm" type="radio" name="orient" class="form-registr__group-input" checked>
+                              <span></span>
+                              Муж.
+                           </label>
+                           <label for="orientf" class="form-registr__group-label">
+                              <input id="orientf" type="radio" name="orient" class="form-registr__group-input">
+                              <span></span>
+                              Жен.
+                           </label>
+                        </div>
+                     </div>
+                     <div class="form-registr__group">
+                        <input type="tel" class="form-registr__input" placeholder=" " />
+                        <label class="form-registr__label">Телефон</label>
+                     </div>
+                     <div class="form-registr__group">
+                        <input type="text" class="form-registr__input" placeholder=" " />
+                        <label class="form-registr__label">Телефон</label>
+                     </div>
+                     <div class="form-registr__group">
+                        <input type="email" class="form-registr__input" placeholder=" " />
+                        <label class="form-registr__label">Неправильный e-mail</label>
+                     </div>
+                     <div class="form-registr__group">
+                        <input type="password" class="form-registr__input" placeholder=" " />
+                        <label class="form-registr__label">Пароль</label>
+                     </div>
+                     <div class="form-registr__group">
+                        <input type="password" class="form-registr__input" placeholder=" " />
+                        <label class="form-registr__label">Повторите пароль</label>
+                     </div>
+                     <div class="form-registr__group">
+                        <button class="form-registr__btn contribut__btn btn"> Зарегистрироваться </button>
+                     </div>
+                  </form>
+               </div>
+            </section>
+            <!-- /section registration-->
+            
+            <!-- section registration-->
+            <section class="success-registr">
+               <div class="success-registr__content results__content timetable-column">
+                  <img src="assets/images/success.svg" alt="">
+                  <h4 class="title">Вы успешно зарегистрировались</h4>
+                  <p class=" success-registr__subtitle subtitle">
+                     Вы успешно зарегистрировались. На ваш e-mail
+                     отправлена ссылка для подтверждения
+                     учётной записи
+                  </p>
+                  <button class=" contribut__btn btn"> На главную </button>
+            
+               </div>
+            </section>
+            <!-- /section registration-->
+
+         </div>
+      </main>
+
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="assets/js/app.js"></script>
+</body>
+
+</html>

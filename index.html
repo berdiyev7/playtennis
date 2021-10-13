@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+   <link rel="stylesheet" href="assets/css/style.min.css">
+   
+   <!-- Useful meta tags -->
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="robots" content="index, follow">
+   <meta name="google" content="notranslate">
+   <meta name="format-detection" content="telephone=no">
+   <meta name="description" content="">
+   
+   <title>Home</title></head>
+
+<body>
+
+   <div class="page">
+
+      <header class="header">
+         <a href="/" class="header__logo">
+            <img src="https://static.playtennis.pro/assets/5f20ada9/images/logo.png" alt="Логотип">
+         </a>
+         <nav class="header__nav">
+            <ul class="header__list">
+               <li class="header__item">
+                  <a href="#" class="header__link">Расписание</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">Результаты</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">Рейтинг</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">О лиге</a>
+               </li>
+               <li class="header__item">
+                  <a href="#" class="header__link">Контакты</a>
+               </li>
+            </ul>
+            <buttonh class="header__btn btn">Вход</buttonh>
+         </nav>
+      </header>
+
+      <main class="main">
+
+         <div class="container">
+            
+            <!-- section content-->
+            <section class="timetable">
+               <div class="timetable__content timetable__content_green">
+                  <h2 class="timetable__title title">Расписание</h2>
+                  <div class="timetable__menu">
+                     <div class="rating__menu">
+                        <img src="assets/images/mix.svg" alt="">
+                        <span class="timetable__menu-text rating__menu-text">Все</span>
+                        <ul class="timetable__menu-list rating__menu-list">
+                           <li class="rating__menu-item"><img src="assets/images/mix.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Все</a>
+                           </li>
+                           <li class="rating__menu-item"><img src="assets/images/red.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Красный мяч</a>
+                           </li>
+                           <li class="rating__menu-item"><img src="assets/images/ball.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Оранжевый мяч</a>
+                           </li>
+                           <li class="rating__menu-item"><img src="assets/images/green.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Зелёный мяч</a>
+                           </li>
+                           <li class="rating__menu-item"><img src="assets/images/yellow.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Жёлтый мяч</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="timetable-column">
+                     <div class="timetable-column__date-wrap">
+                        <p class="timetable-column__date date">28 февраля</p>
+                     </div>
+                     <div class="timetable-column__body">
+                        <div class="timetable-column__group">
+                           <div class="timetable-column__vs">
+                              <div class="timetable-column__row timetable-column__row_first">
+                                 <div>
+                                    <span class="timetable-column__row-name timetable-column__row-name_left name name_fake">
+                                       Ксения Большакова</span>
+                                    <span class="timetable-column__row-name name  name_double">
+                                       Ксения Б.</span>
+                                 </div>
+                                 <img class="timetable-column__row-img" src="assets/images/img-1.png" alt="Фото участника">
+                              </div>
+                              <div class=" timetable-column__time">
+                                 <span class="timetable-column__time-info">15:20</span>
+                                 <span class="timetable-column__time-info timetable-column__time-info_vs">VS</span>
+                              </div>
+                              <div class="timetable-column__row ">
+                                 <img class="timetable-column__row-img" src="assets/images/img-2.png" alt="Фото участника">
+                                 <div>
+                                    <span class=" timetable-column__row-name name name_fake">Александра Алексеечкина</span>
+                                    <span class="timetable-column__row-name name  name_double">
+                                       Александра А.</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="timetable-column__group">
+                           <div class="timetable-column__vs">
+                              <div class="timetable-column__row timetable-column__row_first">
+                                 <div>
+                                    <span class="timetable-column__row-name timetable-column__row-name_left name name_fake">
+                                       Серафим Горчаков</span>
+                                    <span class="timetable-column__row-name name name_double">
+                                       Серафим Г.</span>
+                                    <span class="timetable-column__row-note">Передумал</span>
+                                 </div>
+                                 <img class="timetable-column__row-img" src="assets/images/img-4.png" alt="">
+                              </div>
+                              <div class="timetable-column__time">
+                                 <span class="timetable-column__time-info">15:20</span>
+                                 <span class="timetable-column__time-info timetable-column__time-info_vs">VS</span>
+                                 <a href="#"> <img src="assets/images/play.svg" alt=""> </a>
+                              </div>
+                              <div class="timetable-column__row">
+                                 <img class="timetable-column__row-img" src="assets/images/img-3.png" alt="">
+                                 <div>
+                                    <span class="timetable-column__row-name name name_fake">Кирилл Бабиченко</span>
+                                    <span class="timetable-column__row-name name name_double">Кирилл Б.</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="timetable-column__table table">
+                        <div class="table__wrap">
+                           <p class="table__date date"><img src="assets/images/ball.svg" alt=""> 17:00</p>
+                        </div>
+                        <h4 class="table__subtitle subtitle">Турнир для любителей до 8 лет</h4>
+                        <p class="table__members-text">20 участников</p>
+                        <a href="members.html" class="table__button-click btn">Участвовать</a>
+                     </div>
+                     <div class="timetable-column__table table">
+                        <div class="table__wrap">
+                           <p class="table__date date"><img src="assets/images/ball.svg" alt=""> 17:00</p>
+                        </div>
+                        <h4 class="table__subtitle subtitle">Турнир для любителей до 8 лет</h4>
+                        <div class="table__members">
+                           <p class="table__members-text">20 участников</p>
+                           <p class="table__members-text">9 матчей сыграно</p>
+                        </div>
+                        <div class="table__button">
+                           <button
+                              class="table__button-click table__button-click_mdf table__button-click_neon btn">Покинуть</button>
+                           <button class="table__button-click table__button-click_mdf table__button-click_neon btn ">
+                              <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.7273 5.76C16.7273 8.94116 14.1631 11.52 11 11.52C7.83691 11.52 5.27272 8.94116 5.27272 5.76C5.27272 2.57884 7.83691 0 11 0C14.1631 0 16.7273 2.57884 16.7273 5.76ZM5.75 14.4H16.25C19.1461 14.4 21.5 16.7674 21.5 19.68V22.56C21.5 23.3549 20.8585 24 20.0682 24H1.93182C1.14145 24 0.5 23.3549 0.5 22.56V19.68C0.5 16.7674 2.85391 14.4 5.75 14.4Z"
+                                    fill="#00FF84" />
+                              </svg>
+                              Пригласить</button>
+                        </div>
+                     </div>
+                     <div class="timetable-column__date-wrap timetable-column__date-wrap_fake">
+                        <p class="timetable-column__date date">28 февраля</p>
+                     </div>
+                     <div class="timetable-column__table timetable-column__table_mgt table">
+                        <div class="table__wrap">
+                           <p class="table__date date"><img src="assets/images/ball.svg" alt=""> 17:00</p>
+                        </div>
+                        <h4 class="table__subtitle subtitle">Турнир для любителей до 8 лет</h4>
+                        <p class="table__members-text">20 участников</p>
+                        <button class="table__button-click table__button-click_mdf btn">
+                           <svg width="32" height="32" viewBox="0 0 32 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M29.5 15.134C30.1667 15.5189 30.1667 16.4811 29.5 16.866L10 28.1244C9.33333 28.5093 8.5 28.0281 8.5 27.2583L8.5 4.74167C8.5 3.97187 9.33334 3.49074 10 3.87564L29.5 15.134Z"
+                                 fill="#00FF84" />
+                           </svg>
+                           Трансляция</button>
+                     </div>
+                     <div class="timetable-column__date-wrap">
+                        <p class="timetable-column__date date">28 февраля</p>
+                     </div>
+                     <div class="timetable-column__body">
+                        <div class="timetable-column__group">
+                           <div class="timetable-column__vs">
+                              <div class="timetable-column__row timetable-column__row_first">
+                                 <div>
+                                    <span class="timetable-column__row-name name">Свободно</span>
+                                 </div>
+                                 <button class="table__button-click table__button-click_plus table__button-click_mdf btn">
+                                 </button>
+                              </div>
+                              <div class="timetable-column__time">
+                                 <span class="timetable-column__time-info">15:20</span>
+                                 <span class="timetable-column__time-info timetable-column__time-info_vs">VS</span>
+                              </div>
+                              <div class="timetable-column__row">
+                                 <button class="table__button-click table__button-click_mg table__button-click_mdf  btn ">
+                                    <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M16.7273 5.76C16.7273 8.94116 14.1631 11.52 11 11.52C7.83691 11.52 5.27272 8.94116 5.27272 5.76C5.27272 2.57884 7.83691 0 11 0C14.1631 0 16.7273 2.57884 16.7273 5.76ZM5.75 14.4H16.25C19.1461 14.4 21.5 16.7674 21.5 19.68V22.56C21.5 23.3549 20.8585 24 20.0682 24H1.93182C1.14145 24 0.5 23.3549 0.5 22.56V19.68C0.5 16.7674 2.85391 14.4 5.75 14.4Z"
+                                          fill="#00FF84" />
+                                    </svg>
+                                    Пригласить
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="timetable-column__group">
+                           <div class="timetable-column__vs">
+                              <div class="timetable-column__row timetable-column__row_first">
+                                 <div>
+                                    <span class="timetable-column__row-name timetable-column__row-name_left name name_fake">
+                                       Серафим Горчаков</span>
+                                    <span class="timetable-column__row-name name name_double">
+                                       Серафим Г.</span>
+                                 </div>
+                                 <img class="timetable-column__row-img" src="assets/images/img-4.png" alt="Фото участника">
+                              </div>
+                              <div class=" timetable-column__time">
+                                 <span class="timetable-column__time-info">15:20</span>
+                                 <span class="timetable-column__time-info timetable-column__time-info_vs">VS</span>
+                                 <a href="#"> <img src="assets/images/play.svg" alt=""> </a>
+                              </div>
+                              <div class="timetable-column__row">
+                                 <img class="timetable-column__row-img" src="assets/images/img-3.png" alt="Фото участника">
+                                 <div>
+                                    <span class=" timetable-column__row-name name name_fake">Кирилл Бабиченко</span>
+                                    <span class=" timetable-column__row-name name  name_double">Кирилл Б.</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="table__button-click btn">Показать ещё</button>
+                     <p class="timetable-column__info">
+                        Матчи следуют один за другим, время начала указано приблизительное и может быть
+                        скорректировано в зависимости от того как будут проходить игры.
+                     </p>
+                  </div>
+               </div>
+            </section>
+            <!-- /section content-->
+            
+            <!-- section results-->
+            <section class="results">
+               <div class="results__content timetable__content">
+                  <div class="results__title title">
+                     Результаты
+                     <span class="rating__menu-text">февраля</span>
+                     <!--<ul class="results__menu-list rating__menu-list">
+                        <li class="rating__menu-item">
+                           <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Январь</a>
+                        </li>
+                        <li class="rating__menu-item">
+                           <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Февраль</a>
+                        </li>
+                        <li class="rating__menu-item">
+                           <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Март</a>
+                        </li>
+                        <li class="rating__menu-item">
+                           <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Апрель</a>
+                        </li>
+                        <li class="rating__menu-item">
+                           <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Май</a>
+                        </li>
+                     </ul>-->
+                  </div>
+            
+                  <div class="results-column timetable-column">
+                     <div class="results-column__date-wrap timetable-column__date-wrap">
+                        <p class="results__date results__date_month date">28 февраля</p>
+                     </div>
+                     <div class="results-column__group after">
+                        <div class="results-column__row">
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/img-1.png" alt="">
+                              <p class="results-column__blocks-name">Константин Данилов</p>
+                           </div>
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/img-1.png" alt="">
+                              <p class="results-column__blocks-name results-column__blocks-name_win">
+                                 Майя Давыдова
+                              </p>
+                           </div>
+                        </div>
+                        <div class="results-column__row">
+                           <ul class="results-column__list">
+                              <li class="results-column__item">6:1</li>
+                              <li class="results-column__item">6:2</li>
+                              <li class="results-column__item">6:0</li>
+                              <li class="results-column__item">
+                                 <a href="#">
+                                    <img src="assets/images/stream.svg" alt="">
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="results-column__group">
+                        <div class="results-column__row">
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/img-1.png" alt="">
+                              <p class="results-column__blocks-name">Константин Данилов</p>
+                           </div>
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/img-1.png" alt="">
+                              <p class="results-column__blocks-name results-column__blocks-name_win">
+                                 Майя Давыдова
+                              </p>
+                           </div>
+                        </div>
+                        <div class="results-column__row">
+                           <ul class="results-column__list">
+                              <li class="results-column__item">6:1</li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="results-column__table table">
+                        <div class="table__wrap">
+                           <p class="results__date date"><img src="assets/images/ball.svg" alt=""> 17:00</p>
+                        </div>
+                        <h4 class="results__subtitle subtitle">Турнир для любителей до 8 лет</h4>
+                        <div class="results__members table__members">
+                           <p class="results__members-text table__members-text">20 участников</p>
+                           <p class="results__members-text table__members-text results__members-text_green"><img
+                                 src="assets/images/star.svg" alt=""> Толя Ляшко</p>
+                        </div>
+                     </div>
+                     <div class="timetable-column__date-wrap">
+                        <p class="results__date date">28 февраля</p>
+                     </div>
+                     <div class="results-column__group after">
+                        <div class="results-column__row">
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/d-red.png" alt="">
+                              <div>
+                                 <p class="results-column__blocks-name results-column__blocks-name_win">Диана Носова</p>
+                                 <p class="results-column__blocks-name results-column__blocks-name_win">Николай
+                                    Богатов</p>
+                              </div>
+                           </div>
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/d-red.png" alt="">
+                              <div>
+                                 <p class="results-column__blocks-name"> Андрей Жоглав </p>
+                                 <p class="results-column__blocks-name"> Юля Мехельсон </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="results-column__row">
+                           <ul class="results-column__list">
+                              <li class="results-column__item">6:1</li>
+                              <li class="results-column__item">6:2</li>
+                              <li class="results-column__item">6:0</li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="results-column__group">
+                        <ul class="results-column__row">
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/d-green.png" alt="">
+                              <div>
+                                 <p class="results-column__blocks-name">Олеся Соколова</p>
+                                 <p class="results-column__blocks-name">Диана Носова</p>
+                              </div>
+                           </div>
+                           <div class="results-column__blocks">
+                              <img class="results-column__blocks-img" src="assets/images/d-green.png" alt="">
+                              <div>
+                                 <p class="results-column__blocks-name results-column__blocks-name_win">
+                                    Алисия Кузнецова
+                                 </p>
+                                 <p class="results-column__blocks-name results-column__blocks-name_win">
+                                    Ульяна Матвеева </p>
+                              </div>
+                           </div>
+                        </ul>
+                        <div class="results-column__row">
+                           <ul class="results-column__list">
+                              <li class="results-column__item">6:1</li>
+                              <li class="results-column__item">6:2</li>
+                              <li class="results-column__item">6:0</li>
+                              <li class="results-column__item">
+                                 <a href="#">
+                                    <img src="assets/images/stream.svg" alt="">
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <button class="results__btn btn">Показать ещё</button>
+                  </div>
+               </div>
+            </section>
+            <!-- /section results-->
+            
+            <!-- section rating-->
+            <section class="rating">
+               <div class="timetable__content rating__content">
+                  <div class="rating__header">
+                     <h2 class="title">Рейтинг</h2>
+                     <div class="rating__menu">
+                        <img src="assets/images/red.svg" alt="">
+                        <span class="rating__menu-text rating__menu-text_red">Красный мяч</span>
+                        <ul class="rating__menu-list">
+                           <li class="rating__menu-item"><img src="assets/images/red.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Красный мяч</a>
+                           </li>
+                           <li class="rating__menu-item"><img src="assets/images/ball.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Оранжевый мяч</a>
+                           </li>
+                           <li class="rating__menu-item"><img src="assets/images/green.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Зелёный мяч</a>
+                           </li>
+                           <li class="rating__menu-item"><img src="assets/images/yellow.svg" alt="">
+                              <a class="rating__menu-text rating__menu-text_link rating__menu-text_black">Жёлтый мяч</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class=" grid">
+                     <div class="grid__group grid__group-header ">
+                        <span class="grid-text__center grid-text__center_fake">Место</span>
+                        <span class="grid-text__center grid-text__center_double">М</span>
+                        <span>Игрок</span>
+                        <span class="grid-text__center grid-text__center_fake">Очки</span>
+                        <span class="grid-text__center grid-text__center_double">О</span>
+                        <span class="grid-text__center grid-text__center_fake">Всего игр</span>
+                        <span class="grid-text__center grid-text__center_double">И</span>
+                        <span class="grid-text__center grid-text__center_fake">Победил</span>
+                        <span class="grid-text__center grid-text__center_double">П</span>
+                        <span class="grid-text__center grid-text__center_fake">Проиграл</span>
+                        <span class="grid-text__center grid-text__center_double">П</span>
+                        <span class="grid-text__center">Серия</span>
+                     </div>
+                     <div class="grid__wrap">
+                        <div class="grid__group ">
+                           <span class="grid__number grid-text__center">1</span>
+                           <div class="grid__player">
+                              <img src="assets/images/player.png" alt="">
+                              <span class="grid__player-name">Костя К.</span>
+                           </div>
+                           <span class="grid__points grid-text__center">1034</span>
+                           <span class="grid__all grid-text__center">10</span>
+                           <span class="grid__win grid-text__center">6</span>
+                           <span class="grid__lose grid-text__center">4</span>
+                           <div class="grid__value grid-text__center">
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                           </div>
+                        </div>
+                        <div class="grid__group ">
+                           <span class="grid__number grid-text__center">2</span>
+                           <div class="grid__player">
+                              <img src="assets/images/player-1.png" alt="">
+                              <span class="grid__player-name">Костя К.</span>
+                           </div>
+                           <span class="grid__points grid-text__center">1034</span>
+                           <span class="grid__all grid-text__center">10</span>
+                           <span class="grid__win grid-text__center">6</span>
+                           <span class="grid__lose grid-text__center">4</span>
+                           <div class="grid__value grid-text__center">
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                           </div>
+                        </div>
+                        <div class="grid__group ">
+                           <span class="grid__number grid-text__center">3</span>
+                           <div class="grid__player">
+                              <img src="assets/images/player-3.png" alt="">
+                              <span class="grid__player-name">Костя К.</span>
+                           </div>
+                           <span class="grid__points grid-text__center">1034</span>
+                           <span class="grid__all grid-text__center">10</span>
+                           <span class="grid__win grid-text__center">6</span>
+                           <span class="grid__lose grid-text__center">4</span>
+                           <div class="grid__value grid-text__center">
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                           </div>
+                        </div>
+                        <div class="grid__group ">
+                           <span class="grid__number grid-text__center">4</span>
+                           <div class="grid__player">
+                              <img src="assets/images/player-4.png" alt="">
+                              <span class="grid__player-name">Костя К.</span>
+                           </div>
+                           <span class="grid__points grid-text__center">1034</span>
+                           <span class="grid__all grid-text__center">10</span>
+                           <span class="grid__win grid-text__center">6</span>
+                           <span class="grid__lose grid-text__center">4</span>
+                           <div class="grid__value grid-text__center">
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                           </div>
+                        </div>
+                        <div class="grid__group ">
+                           <span class="grid__number grid-text__center">5</span>
+                           <div class="grid__player">
+                              <img src="assets/images/player-5.png" alt="">
+                              <span class="grid__player-name">Костя К.</span>
+                           </div>
+                           <span class="grid__points grid-text__center">1034</span>
+                           <span class="grid__all grid-text__center">10</span>
+                           <span class="grid__win grid-text__center">6</span>
+                           <span class="grid__lose grid-text__center">4</span>
+                           <div class="grid__value grid-text__center">
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                              <span class="grid__value-item grid__value-item_lose">П</span>
+                              <span class="grid__value-item">В</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <button class=" rating__btn btn">Показать ещё</button>
+               </div>
+            </section>
+            <!-- /section rating-->
+            
+            <!-- section about-->
+            <section class="about">
+               <img class="about__img" src="assets/images/photo.png" alt="">
+               <div class="about__column">
+                  <h2 class="title">О лиге</h2>
+                  <div class="about__wrap">
+                     <p class="about__wrap-text">
+                        Изюминка комплекса - это наличие спортивных площадок: здесь играют в футбол и большой теннис люди всех
+                        возрастов, от мала до велика. Профессиональный тренерский состав научит вас играть, даже если вы не
+                        знаете пока, как держать ракетку или гонять мяч. В нашем клубе вас ждет два крытых корта с высококлассным
+                        покрытием Hard Cushion и профессиональные тренеры - многократные победители российских и международных
+                        соревнований.
+                     </p>
+                     <p class="about__wrap-text">
+                        Наша цель - подготовить воспитанников для продолжения футбольной карьеры в лучших спортивных клубах
+                        России. В тренировках мы используем лучшие методики футбольных клубов Европы. Тренировки проходят на
+                        крытом манеже 60x30 м с высококлассным покрытием EURO GRASS, используемым в играх самого высокого уровня.
+                     </p>
+                  </div>
+               </div>
+            </section>
+            <!-- /section about-->
+            
+            <!-- section about-->
+            <section class="contact">
+               <div class="contact__column">
+                  <div class="contact__content">
+                     <h2 class="contact__title">Контакты</h2>
+                     <div class="contact__box">
+                        <a class="contact__box-link" href="tel:+7 (499) 990-15-15">+7 (499) 990-15-15</a>
+                        <a class="contact__box-link" href="mailto:info@tennislove.ru">info@tennislove.ru</a>
+                     </div>
+                     <p class="contact__address">г. Видное, Московская область, ул. Старо-Нагорная, 20А</p>
+                     <div class="contact__time">
+                        <p class="contact__time-text">Часы работы </p>
+                        <p> с 9:00 до 23:00</p>
+                     </div>
+                  </div>
+                  <div class="contact__map">
+                     <div class="contact__map-frame">
+                        <iframe
+                           src="https://yandex.ru/map-widget/v1/?um=constructor%3A176074e3b96c8528dcf11e1af01aa4010140b118480cf119feefdf3e9fd2dca4&amp;source=constructor"
+                           frameborder="0">
+                        </iframe>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- /section about-->
+
+         </div>
+      </main>
+
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="assets/js/app.js"></script>
+</body>
+
+</html>
