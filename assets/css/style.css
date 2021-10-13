@@ -353,6 +353,7 @@ body {
 
 .timetable-column__time-info_vs {
     color: #00ff84;
+    margin-bottom: 1rem;
 }
 
 .timetable-column__table {
